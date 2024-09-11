@@ -196,10 +196,22 @@ hr {
 }
 
 .about {
-  background-color: #6b8e3c;
+  background-color: #e48413;
   padding: 50px;
   border-radius: 10px;
   color: #fff;
+}
+.about h3 {
+  font-size: 2.75rem;
+  display: block;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  font-family: "Londrina Solid", sans-serif;
+  color: #fff;
+  line-height: 36px;
+}
+.about p {
+  font-size: 18px;
 }
 .about .date span {
   font-size: 7vh;
@@ -214,6 +226,16 @@ hr {
   font-family: "Londrina Solid", sans-serif;
 }
 
+.title-top h1 {
+  display: block;
+  font-weight: 500;
+  font-family: "Londrina Solid", sans-serif;
+  color: #fff;
+}
+.title-top h1 span {
+  color: #f9c200;
+}
+
 .menu {
   background-image: url("../images/bg-gallery/aa.jpg");
   background: #212529;
@@ -226,24 +248,23 @@ hr {
   font-weight: 500;
   font-family: "Londrina Solid", sans-serif;
 }
-.menu__details {
-  border: 2px solid #fff;
-  border: 2px solid #6c8d3c;
-  padding: 20px;
-  border-radius: 10px;
-  height: 100%;
-}
 .menu__details h3 {
   font-family: "Londrina Solid", sans-serif;
   font-weight: 600px;
   font-size: 26px;
 }
 .menu__details .price {
-  font-size: 2.9vh;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   font-family: "PosterizerKGRough";
-  color: #6b8e3c;
+  color: #f9c200;
   padding: 0px 0px 0px 0px;
+}
+
+.dotted-line {
+  border-bottom: 1px dotted #ffffff;
+  width: 100%;
+  padding-bottom: 5px;
 }
 
 .footer {
@@ -434,6 +455,7 @@ hr {
   border-radius: 10px;
   color: #fff;
   overflow-y: scroll;
+  display: none;
 }
 
 .sidebar img {
@@ -576,6 +598,17 @@ hr {
     z-index: 1000;
     border-radius: 0px;
     padding: 120px 30px 30px 30px;
+    display: block;
+  }
+  .login {
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .w-50 {
+    width: 100% !important;
   }
   .toggle-button {
     display: block !important;
